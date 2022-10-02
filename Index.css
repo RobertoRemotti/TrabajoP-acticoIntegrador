@@ -1,0 +1,25 @@
+.nav-link{
+    color:white
+};
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .oscurecer-img {
+    filter: brightness(50%);
+  }
+  
+  .contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+  }
+  .texto-encima {
+    position: absolute;
+    bottom: 26%;
+    right: 9%;
+    color: white;
+  }
